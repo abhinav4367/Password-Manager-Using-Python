@@ -24,7 +24,7 @@ cd Password-Manager-Using-Python
 ```
 ### **Step 2: Run the Password Manager**
 ```
-python [filename].py
+python Password_Manager.py
 ```
 ### **Step 3: Interface Overview**
 The Password Manager interface consists of the following components:
