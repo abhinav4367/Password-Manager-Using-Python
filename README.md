@@ -18,10 +18,12 @@ Follow these steps to set up and use the Password Manager
 ### **Step 1: Clone the Repository**
 ```bash
 git clone https://github.com/abhinav4367/Password-Manager-Using-Python.git
-cd [Password-Manager-Using-Python]`
+cd [Password-Manager-Using-Python]
+```
 ### **Step 2: Run the Password Manager**
-```bash
-python [filename].py`
+```
+python [filename].py
+```
 ### **Step 3: Interface Overview**
 The Password Manager interface consists of the following components:
 
