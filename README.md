@@ -17,18 +17,18 @@ This simple Password Manager application is built using Tkinter and SQLite for m
 - Run the script to launch the Password Manager.
 - Use the provided buttons and input fields to manage your passwords.
 
-## Database
+### Database
 The application uses an SQLite database named passwords.db with a table named passwords. The table schema includes columns for id (auto-incrementing primary key), website, username, and password.
 
-## Security
+### Security
 The application prompts for a key (password) before allowing access to sensitive operations like displaying, removing, or resetting passwords. This adds an extra layer of security to protect stored password information.
 
 Note: It is recommended to customize the access key by modifying the key variable in the show_passwords, remove_password, and reset_database methods.
 
-## Warning
+### Warning
 Please use this application responsibly and keep your access key secure. The application is a simple example and may not provide advanced security features found in professional password management solutions.
 
-## License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Feel free to modify and enhance the application according to your needs. Happy coding!
