@@ -15,7 +15,7 @@
 
 ## Usage
 Follow these steps to set up and use the Password Manager
-## **Step 1: Clone the Repository**
+### **Step 1: Clone the Repository**
 
 ### Database
 The application uses an SQLite database named passwords.db with a table named passwords. The table schema includes columns for id (auto-incrementing primary key), website, username, and password.
