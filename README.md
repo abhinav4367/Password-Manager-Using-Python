@@ -14,7 +14,7 @@
 - **SQLite** (usually included with Python installations)
 
 ## Usage
-Follow these steps to set up and use the Password Manager:
+Follow these steps to set up and use the Password Manager
 ###Step 1: Clone the Repository
 
 ### Database
