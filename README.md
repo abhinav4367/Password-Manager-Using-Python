@@ -14,8 +14,8 @@
 - **SQLite** (usually included with Python installations)
 
 ## Usage
-- Run the script to launch the Password Manager.
-- Use the provided buttons and input fields to manage your passwords.
+Follow these steps to set up and use the Password Manager:
+1.Step 1: Clone the Repository
 
 ### Database
 The application uses an SQLite database named passwords.db with a table named passwords. The table schema includes columns for id (auto-incrementing primary key), website, username, and password.
