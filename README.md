@@ -1,5 +1,5 @@
 # Password-Manager-Using-Python
-This simple Password Manager application is built using Tkinter and SQLite for managing and storing passwords securely. It provides basic functionalities to generate, add, display, and remove passwords.
+> This simple Password Manager application is built using Tkinter and SQLite for managing and storing passwords securely. It provides basic functionalities to generate, add, display, and remove passwords.
 
 ## Features
 - **Generate Password**: Automatically generates a random password consisting of letters, digits, and punctuation.
