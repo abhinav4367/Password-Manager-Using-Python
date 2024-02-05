@@ -16,7 +16,7 @@
 ## Usage
 Follow these steps to set up and use the Password Manager
 ### **Step 1: Clone the Repository**
-`git clone [https://github.com/abhinav4367/Password-Manager-Using-Python.git]
+`git clone https://github.com/abhinav4367/Password-Manager-Using-Python.git
 cd [Password-Manager-Using-Python]`
 ### **Step 2: Run the Password Manager**
 `python [filename].py`
