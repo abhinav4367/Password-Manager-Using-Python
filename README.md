@@ -16,6 +16,37 @@
 ## Usage
 Follow these steps to set up and use the Password Manager
 ### **Step 1: Clone the Repository**
+`git clone [repository_url]
+cd [repository_directory]`
+### **Step 2: Run the Password Manager**
+`python [filename].py`
+### **Step 3: Interface Overview**
+The Password Manager interface consists of the following components:
+
+- Website: Entry for the website or service name.
+- Username: Entry for the username associated with the website.
+- Password: Entry for the password; click "Generate Password" to create a random password.
+- Generate Password: Button to generate a random password.
+- Add Password: Button to add the current details to the password database.
+- Show Passwords: Button to display stored passwords (requires a key).
+- Remove Password: Button to delete a stored password (requires a key).
+- Reset Database: Button to clear all stored passwords (requires a key).
+### **Step 4: Generate and Add Passwords**
+- Fill in the Website, Username, and Password fields.
+- Optionally, click Generate Password for an automatically generated password.
+- Click Add Password to store the credentials in the database.
+### **Step 5: Show Stored Passwords**
+- Click Show Passwords.
+- Enter the correct key (default: "admin") to reveal stored passwords.
+- View and take note of the displayed passwords.
+### **Step 6: Remove Stored Password**
+- Fill in the Website and Username fields.
+- Click Remove Password.
+- Enter the correct key to delete the associated password.
+### **Step 7: Reset the Database**
+- Click Reset Database.
+- Enter the correct key to clear all stored passwords.
+Note: Always keep your key secure and do not share it with unauthorized individuals.
 
 ### Database
 The application uses an SQLite database named passwords.db with a table named passwords. The table schema includes columns for id (auto-incrementing primary key), website, username, and password.
