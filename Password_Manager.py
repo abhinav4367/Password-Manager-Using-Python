@@ -1,8 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 import sqlite3
-import random
+import secrets
 import string
+
 
 class PasswordManager:
     def __init__(self, master):
@@ -61,7 +62,9 @@ class PasswordManager:
 
     def generate_password(self):
         # Generate a random password
-        password = ''.join(random.choices(string.ascii_letters + string.digits + string.punctuation, k=12))
+        password = ''
+        for i in range(12):
+            password = password + password.join(secrets.choice(string.ascii_letters + string.digits + string.punctuation))
         self.entry_password.delete(0, tk.END)
         self.entry_password.insert(0, password)
 
@@ -88,7 +91,8 @@ class PasswordManager:
             # Display all stored passwords
             passwords = self.cursor.execute("SELECT * FROM passwords").fetchall()
             if passwords:
-                result_text = "\n".join([f"Website: {row[1]}\nUsername: {row[2]}\nPassword: {row[3]}\n" for row in passwords])
+                result_text = "\n".join(
+                    [f"Website: {row[1]}\nUsername: {row[2]}\nPassword: {row[3]}\n" for row in passwords])
                 messagebox.showinfo("Stored Passwords", result_text)
             else:
                 messagebox.showinfo("Stored Passwords", "No passwords stored yet.")
@@ -122,6 +126,7 @@ class PasswordManager:
             messagebox.showinfo("Success", "Database reset successfully!")
         else:
             messagebox.showinfo("Access Denied", "Incorrect key. Database not reset.")
+
 
 if __name__ == "__main__":
     root = tk.Tk()
